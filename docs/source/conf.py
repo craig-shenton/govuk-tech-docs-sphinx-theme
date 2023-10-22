@@ -56,8 +56,8 @@ exclude_patterns = []
 html_theme = "govuk_tech_docs_sphinx_theme"
 
 html_theme_options = {
-    "organisation": "",  # replace with your organisation's abbreviation (ideally) or name - long text may not look nice
-    "phase": ""          # replace with an Agile project phase - see https://www.gov.uk/service-manual/agile-delivery
+    "organisation": "TEST.GOV.UK",  # replace with your organisation's abbreviation (ideally) or name - long text may not look nice
+    "phase": "Building"          # replace with an Agile project phase - see https://www.gov.uk/service-manual/agile-delivery
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -66,7 +66,7 @@ html_theme_options = {
 html_static_path = ['_static']
 
 html_context = {
-    "github_url": None,                  # if using GitHub, set to the URL of your repository as a string
+    "github_url": "https://github.com/craig-shenton/govuk-tech-docs-sphinx-theme", 
     "gitlab_url": None,                  # if using GitLab, set to the URL of your repository as a string
     "conf_py_path": "docs/",             # assuming your Sphinx folder is called `docs`
     "version": "main",                   # assuming `main` is your repository's default branch
